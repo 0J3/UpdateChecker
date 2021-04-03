@@ -42,7 +42,7 @@ namespace TestAutoUpdater
     const string Branch = "main";
     const string VersionFileName = "Version.txt";
 
-    const string UpdateDownload = "https://github.com/0J3/TestAutoUpdater/UpdateChecker/latest/download/Release.zip";
+    const string UpdateDownload = "https://github.com/0J3/UpdateChecker/releases/latest/download/Release.zip";
 
     string ThisVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
